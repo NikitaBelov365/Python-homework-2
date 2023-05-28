@@ -8,13 +8,13 @@ import random
 import math
 
 def Calculations():
-    X = random.randint(1, 1000)
-    Y = random.randint(1, 1000)
-    print(X, Y)
-# S = int(input("Input sum: "))
-    S = X+Y
-# P = int(input("Input prod: "))
-    P = X*Y
+    # X = random.randint(1, 1000)
+    # Y = random.randint(1, 1000)
+    # print(X, Y)
+    S = int(input("Input sum: "))
+    P = int(input("Input prod: "))
+    # S = X+Y
+    # P = X*Y
 # y*y - S*y + P = 0
     D = S*S - 4*P
 # y = (--S+-sqrt(D))/2
